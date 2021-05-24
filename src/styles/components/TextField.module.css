@@ -1,0 +1,13 @@
+.textfield input{
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff;
+    line-height: 2;
+}
+.textfield textarea{
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff;
+    line-height: 2;
+}
+.textfield{
+    margin: 15px 0 !important;
+}

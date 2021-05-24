@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.root{
+    background: url("https://images.pexels.com/photos/1910236/pexels-photo-1910236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    object-fit: fill;
+    padding: 30px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    text-align: left;
+    word-wrap: break-word;
+}
+.left{
+    flex: 0.4;
+    width: 40%;
+}
+.right{
+    flex: 0.6;
+    width: 60%;
+    margin-left: 20px;
+    position: relative;
+}
+.left_cont{
+    height: 100%;
+}
+
+.container{
+    padding: 30px;
+    background: #000000;
+    word-wrap: break-word;
+}
+.container_space{
+    margin-top: 25px;
+}
+.inner_container{
+    margin-top: 80px;
+}
+.inner_container p{
+    line-height: 1.8;
+}
+.title{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3.5px;
+}
+.name{
+    font-size: 56px;
+}
+.skill_list{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+.skill_row{
+    margin-bottom: 20px;
+}
+.skill_row p {
+    margin: 0;
+    font-size: 12px;
+    width: 95%;
+}
+.star{
+    color: yellow;
+}
+.company{
+    margin: 12px 0;
+}
+.role{
+    margin: 0;
+}
+.desc{
+    font-size: 12px;
+    line-height: 1.3;
+}

@@ -1,0 +1,16 @@
+.root{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.image{
+    width: 250px;
+    height: 350px;
+    margin: 15px 0;
+    transition: transform 0.5s ease-in-out;
+}
+.image:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transform: scale(1.12);
+}

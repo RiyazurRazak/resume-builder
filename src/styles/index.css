@@ -1,0 +1,38 @@
+* {
+  
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #000000;
+  color: #ffffff;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.MuiTab-textColorSecondary{
+  color: #ffffff !important;
+}
+.MuiFilledInput-root{
+  background-color: rgba(255, 255, 255, 0.09)!important;
+}

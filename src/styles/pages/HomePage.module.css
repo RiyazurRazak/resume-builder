@@ -1,0 +1,51 @@
+.brand_root{
+    margin: 30px;
+}
+.brand{
+   font-style: oblique;
+   animation: logoanim infinite 3s ease-in-out;
+   background: linear-gradient(to right, #F35E85, #747FF2, #62DDE6, #99F8D0);
+   background-clip: "text";
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 45px;
+}
+
+.heading_root{
+    text-align: center;
+}
+.heading{
+    margin: 100px 25%;
+    line-height: 2.5;
+    background: linear-gradient(to right, #F35E85, #747FF2, #62DDE6, #99F8D0);
+    background-clip: "text";
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.templates{
+    margin-left: 30px;
+    background: linear-gradient(to right, #F35E85, #747FF2, #62DDE6, #99F8D0);
+    background-clip: "text";
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+
+@keyframes logoanim {
+    0% {
+        opacity: 1;
+        width: fit-content;
+    }
+    30% {
+        opacity: 0.8;
+    }
+    60% {
+        opacity: 0.4;
+        width: fit-content;
+    }
+    100% {
+        opacity: 1;
+        
+    }
+}

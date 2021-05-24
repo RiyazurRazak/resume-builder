@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;600;700&display=swap');
+
+.root{
+    display: flex;
+    padding: 40px;
+    color: #676767;
+    text-align: left;
+   
+}
+.left{
+    flex: 0.4;
+    width: 40%;
+    padding-right: 20px;
+}
+.right{
+    flex: 0.6;
+    width: 60%;
+}
+.container{
+    margin-top: 50px;
+}
+.avatar_cont{
+    text-align: center;
+}
+.avatar{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    z-index: 999;
+}
+.title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Advent Pro', sans-serif;
+}
+.contact_cont{
+    background-color: #F2F2F2;
+    margin-top: -50px;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 10px;
+    text-align: left;
+}
+.contact_cont p{
+    line-height: 1.5;
+}
+.skills_list{
+    list-style-type: disc;
+}
+.bar_out{
+    width: 80%;
+    height: 10px;
+    border-radius: 5px;
+    background: #f2f2f2;
+    box-shadow: inset 22px 22px 44px #cecece, inset -22px -22px 44px #ffffff;
+    
+}
+.bar{
+    background-color: #676767c7;
+    height: 10px;
+    border-radius: 5px;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-wrap: break-word;
+    width: 80%;
+    margin: 0 10%;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 300;
+}
+.name{
+    margin-bottom: 10px;
+}
+.border{
+    width: 10%;
+    height: 2.5px;
+    background-color: #676767;
+}
+.company{
+    margin: 5px 0;
+}
+.role{
+    margin: 0;
+}

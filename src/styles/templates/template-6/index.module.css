@@ -1,0 +1,55 @@
+.root{
+    position: absolute !important;
+    color: #303141;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+}
+.container{
+    margin-top: 40px;
+}
+.header{
+    background: #3e3e49;
+    color: #bc9841;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.avatar_cont{
+    margin: 30px;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.intro_cont{
+    margin-left: 50px;
+    text-align: left;
+}
+.title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.content{
+    display: flex;
+    margin: 0 20px;
+    text-align: left;
+}
+.right, .left{
+    flex: 0.5;
+    width: 50%;
+    padding: 0 20px;
+}
+.company{
+    margin: 4px 0;
+}
+.role{
+    margin: 0;
+}
+.footer{
+    position: absolute;
+    background: #3e3e49;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+}
