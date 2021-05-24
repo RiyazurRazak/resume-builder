@@ -13,7 +13,7 @@ function Home() {
            </div>
 
            <h4 className={styles.templates}>Ready To Use Templates</h4>
-
+         
            <Grid />
         </div>
     )
