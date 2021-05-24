@@ -6,7 +6,7 @@
 .image{
     width: 250px;
     height: 350px;
-    margin: 15px 0;
+    margin: 15px;
     transition: transform 0.5s ease-in-out;
 }
 .image:hover{

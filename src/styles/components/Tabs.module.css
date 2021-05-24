@@ -10,8 +10,9 @@
     text-align: center !important;
 }
 
-@media  screen and (max-width: 800px) {
+@media  screen and (max-width: 1194px) {
     .root{
-      width: 90%;
+      width: 80%;
+      margin: 60px 10%;
     }
 }

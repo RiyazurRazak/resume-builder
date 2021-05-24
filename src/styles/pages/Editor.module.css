@@ -9,8 +9,8 @@
 }
 .fab{
     position: fixed !important;
-    margin-top: 90vh !important;
-    margin-left: 95vw !important;
+    bottom: 20px;
+    right: 10px;
 }
 .paper {
     width: 21cm;
@@ -52,19 +52,16 @@
 }
 
 
-@media screen  and (max-width: 800px){
+@media screen  and (max-width: 1194px){
     .root{
         flex-direction: column;
-    }
-    .fab{
-        margin-left: 10px !important;
-        margin-bottom: 20px !important;
     }
     .right{
         width: 100%;
         overflow: scroll;
     }
     .page{
-        object-fit: contain;
+        margin: auto;
+        aspect-ratio: 16;
     }
 }
