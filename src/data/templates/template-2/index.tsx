@@ -31,7 +31,7 @@ function Index() {
                     </div>
                     <br />
                     <div>
-                        <p className={styles.heading}>Work Background</p>
+                        <p className={styles.heading}>{experience.customTitle.length > 0 ? experience.customTitle : "Experience"}</p>
                         <hr className={styles.border} />
                         {
                             experience.fields.map((experience : any, index : number)=>{

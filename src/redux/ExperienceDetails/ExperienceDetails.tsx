@@ -7,6 +7,7 @@ interface Ifields {
 }
 
 interface iInitialState {
+    customTitle : string
     fields : Ifields[]
 }
 
@@ -26,6 +27,7 @@ type TUpdate = {
 
 
 const initialState : iInitialState = {
+    customTitle : "",
     fields : [{
         company : 'BAKS Studio',
         role : 'Fashion Blogger , October 2018 to Present',
@@ -42,6 +44,9 @@ export const ExperienceSlice = createSlice({
     name: "EcperirnceDetails",
     initialState : initialState,
     reducers : {
+        setCustomTitle: (state : iInitialState, {payload} : PayloadAction<TPayload>)=>{
+            state.customTitle = payload.data
+       },
         setCompanySlice: (state : iInitialState, {payload} : PayloadAction<TPayload>)=>{
              state.fields[payload.index].company = payload.data
         },
@@ -66,6 +71,7 @@ export const ExperienceSlice = createSlice({
 
 
 export default ExperienceSlice.reducer;
+export const {setCustomTitle} = ExperienceSlice.actions
 export const {setCompanySlice} = ExperienceSlice.actions;
 export const {setExperienceSlice} = ExperienceSlice.actions;
 export const {setRoleSlice} = ExperienceSlice.actions;

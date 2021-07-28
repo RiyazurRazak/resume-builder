@@ -5,7 +5,7 @@ import { Add, Delete } from '@material-ui/icons';
 import Input from '@material-ui/core/FilledInput';
 
 import { useDispatch, useSelector } from 'react-redux';
-import {setCompanySlice, setExperienceSlice, setNewField, setUpdateFields, setRoleSlice} from '../redux/ExperienceDetails/ExperienceDetails'
+import {setCompanySlice, setExperienceSlice, setNewField, setUpdateFields, setRoleSlice, setCustomTitle} from '../redux/ExperienceDetails/ExperienceDetails'
 import { Tstore } from '../store';
 import { IconButton } from '@material-ui/core';
 
@@ -20,7 +20,7 @@ function ExperienceDetails() {
     
     const dispatch = useDispatch()
    
-        const {fields} = useSelector((state : Tstore)=> state.experienceSlice)
+        const {customTitle, fields} = useSelector((state : Tstore)=> state.experienceSlice)
 
   
 
@@ -49,6 +49,19 @@ function ExperienceDetails() {
 
     return (
         <div>
+
+        <Input 
+            className={styles.textfield}  
+            value={customTitle} 
+            color="secondary" 
+            onChange={(e)=> dispatch(setCustomTitle({data : e.target.value, index : 1}))}
+            placeholder="Custom Title"  
+            aria-describedby="filled-weight-helper-text"
+            inputProps={{
+             'aria-label': 'weight',
+            }}  
+            fullWidth
+        />
 
             {
                 fields.map((field : Ifeields, index : number)=>{

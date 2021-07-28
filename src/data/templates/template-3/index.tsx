@@ -42,7 +42,7 @@ function Index() {
             <hr />
 
             <div>
-                <h3 className={styles.title}>Professional Experience</h3>
+                <h3 className={styles.title}>{experience.customTitle.length > 0 ? experience.customTitle : "Experience"}</h3>
                 {
                     experience.fields.map((experience, index)=>{
                         return(

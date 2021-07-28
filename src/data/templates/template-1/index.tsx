@@ -80,7 +80,7 @@ function Index() {
                  </div>
 
                  <div>
-                     <h1>Experience</h1>
+                     <h1>{experience.customTitle.length > 0 ? experience.customTitle : "Experience"}</h1>
 
                      {
                          experience.fields.map((experience : any, index: number)=>{

@@ -37,7 +37,7 @@ function Index() {
                     </div>
                     
                     <div className={styles.container}>
-                      <h3 className={styles.title}>Experience</h3>
+                      <h3 className={styles.title}>{experience.customTitle.length > 0 ? experience.customTitle : "Experience"}</h3>
                       {
                           experience.fields.map((experience : any, index : number)=>{
                               return (

@@ -78,7 +78,7 @@ function Index() {
                   </div>
 
                   <div className={`${styles.container} ${styles.container_space}`}>
-                       <h3 className={styles.title}>Career Background</h3>
+                       <h3 className={styles.title}>{experience.customTitle.length > 0 ? experience.customTitle : "Experience"}</h3>
                        {
                              experience.fields.map((experience : any, index : number)=>{
                                 return(
